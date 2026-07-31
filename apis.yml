@@ -1,8 +1,26 @@
 aid: nookly
 name: Nookly
-description: Nookly is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nookly is a personalized children's content platform that helps the adults who
+  care for a child — parents, teachers, therapists, and early-childhood organizations — turn
+  their intimate knowledge of that child into custom stories, songs, visual schedules, social
+  stories, emotion cards, and behavior supports. Grounded in social-emotional learning and
+  behavioral science, it produces developmentally appropriate, COPPA/FERPA-compliant content
+  for children ages 2-11, with particular value for neurodivergent kids (autism, ADHD, speech
+  delays, anxiety, and sensory processing differences). Used across homes, classrooms, and
+  clinics in 50+ states.
 url: https://raw.githubusercontent.com/api-evangelist/nookly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/gpt-engineer-file-uploads/zYLhkSz8SHSvumc3ztcxDd4O7Ci2/uploads/1762981320397-Favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Children
+- Education
+- EdTech
+- Social-Emotional Learning
+- Personalization
+- Therapy
+- Neurodiversity
+- Content Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://nookly.com
+- type: Blog
+  url: https://nookly.com/blog
+- type: Support
+  url: https://help.nookly.com
+- type: Pricing
+  url: https://nookly.com/pricing
+- type: SignUp
+  url: https://nookly.com/signup
+- type: TermsOfService
+  url: https://nookly.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://nookly.com/privacy-policy
+- type: LLMsTxt
+  url: llms/nookly-llms.txt
+- type: DomainSecurity
+  url: security/nookly-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
