@@ -1,0 +1,26 @@
+# Front Door AI Index — nookly — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nookly
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: nookly.com
+  final_host: nookly.com
+  ownership: own
+  owner: nookly
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 7
+  host_score: 7
+  density: 5.18
+  words: 1352
+  tiers:
+    agentic: 5
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    prompts: 5
+    AI: 2
